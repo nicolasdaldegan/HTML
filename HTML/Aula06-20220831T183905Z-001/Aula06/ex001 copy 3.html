@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste com switch</title>
+    <style>
+        body {
+            background-color: rgb(43, 40, 40);
+            color: cornsilk;
+            /* comentar em css*/
+            font: 18pt Arial Black
+        }
+
+        h2 {
+            color: rgb(255, 255, 255);
+        }
+
+        h3 {
+            color: rgb(255, 128, 217);
+            font: 16pt Arial Black;
+        }
+    </style>
+</head>
+
+<body>
+    <!--comentar em html-->
+    <h1 style="text-align:center;">Bem vindo!</h1>
+    <!---style="text-align:center;" comando usado em css para centralizar o texto--->
+    <h3 style="text-align:center;">Você é uma gatinha!</h3>
+    <h4 style=color:rgb(96,96,216)> Para os homi só digo uma coisa, sai daqui desgrama! </h4>
+    <script>
+        var nome = window.prompt('Qual é seu nome?'); //pergunta o nome
+        switch (nome) { //switch serve para armazenar muitas coisas, não precisando de muito if e OU
+            case "Pablo":   //espaço de armazenamento
+                window.alert('Olá ' + nome + ', gostoso! ');
+                break;      //finaliza
+
+            case "Junyo":
+                window.alert('Coe ' + nome + ', barriga de esterco! ');
+                break;
+
+            case "Isaac":
+                window.alert('Sai ' + nome + ', seu gay! ');
+                break;
+
+            case "Pedro":
+                window.alert("Calaboca " + nome + ", Fedeno, e sai da casa de Luis!");
+                break;
+
+            case "Luis":
+                window.alert("Calaboca " + nome + ", bota para fora!");
+                break;
+
+            case "Fernando":
+                window.alert("O " + nome + " Pelé vai pega oc em");
+                break;
+
+            case "Thiago":
+                window.alert("Coe " + nome + " genshin impacta!");
+                break;
+
+            case "Tulio":
+                window.alert("Calaboca " + nome + " JanaBoll!");
+                break;
+
+            case "Evelin":
+                window.alert("Coe " + nome + ", sua gostosa!");
+                break;
+
+            case nome:
+                window.alert("Olá " + nome + ", seja bem vindo!");
+                break;
+        }
+    </script>
+</body>
+
+</html>

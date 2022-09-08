@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test usando if e ou</title>
+    <style>
+        body {
+            background-color: rgb(99, 99, 134);
+            color: cornsilk;
+            /* comentar em css*/
+            font: 18pt Arial Black
+        }
+
+        h1 {
+            color: rgb(0, 0, 0);
+        }
+
+        p {
+            color: rgb(223, 10, 159);
+            font: 16pt Arial Black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align:center;">Bem vindo!</h1>
+    <!--style="text-align:center;" centraliza em css-->
+    <!--comentar em html-->
+    <p style="text-align:center;">Você é uma gata!</p>
+    <script>
+        var nome = window.prompt('Qual é seu nome?'); //pergunta o nome
+        if ((nome == 'Pablo') || (nome == 'Junyo')) { //if = Se, || = Ou, == recebe
+            window.alert('Olá meu criador ' + nome + ', seu gostoso! ');
+        } else { //se nao
+            if (nome == 'Isaac') {
+                window.alert('Sai ' + nome + ' Gay!')
+            } else {
+                window.alert('Olá ' + nome + ', bem vindo!');
+            }
+        }
+
+    </script>
+</body>
+
+</html>

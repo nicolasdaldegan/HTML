@@ -1,0 +1,56 @@
+um relógio simples ai
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Relogio</title>
+
+
+    <style>
+        body {
+            background-color: #000000;
+
+        }
+
+        #horas:hover {
+            color: rgb(0, 0, 0);
+        }
+
+        #horas {
+            text-align: center;
+            background-color: rgb(255, 255, 255);
+            color: rgb(73, 47, 47);
+            font-size: 70px;
+            margin: 0;
+            border-radius: 5px;
+
+        }
+
+        ;
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1 id='horas'></h1>
+    </div>
+
+
+    <script>
+        function relogio() {
+
+            let elementoID = document.getElementById('horas');
+            let horalocal = new Date().toLocaleTimeString();
+            elementoID.innerHTML = horalocal;
+
+        };
+
+        setInterval(relogio, 1000);
+
+
+    </script>
+</body>
+
+</html>

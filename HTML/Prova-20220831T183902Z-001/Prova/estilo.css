@@ -1,0 +1,44 @@
+body{
+    background-color: #C0D9D9;
+}
+
+h1{
+    text-align: center;
+    color: #0000ff;
+}
+
+p{
+    text-align: center;
+    font: arial;
+}
+
+img{
+    width: 150px;
+    border-radius: 20px;
+}
+
+
+th,td{
+    text-align: center;
+}
+
+.coco{
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+/*paginas*/
+
+#imgpages{
+    text-align: center;
+}
+
+.navegadores{
+    text-align: left;
+}
+
+.tamanho{
+    width: 200px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend> Dados Pessoais</legend>
+            <label for="fname">Primeiro Nome</label>
+            <input type="text" id="fname" name="fname" placeholder="Digite seu primeiro nome">><br>
+            <!--Comando placeholder marca da água-->
+            <label for="fname">Segundo Nome</label>
+            <input type="text" id="fname" name="fname">><br>
+            <label for="address">Endereço</label>
+            <input type="text" id="address" name="address" required>><br>
+            <!--required comando para ser obrigatorio a entrada dos dados-->
+            <label for="pass">Digite a senha</label>
+            <!--o tipo do input define se é senha texto endereço etc-->
+            <input type="password" id="pass" name="password" placeholder="Digite sua senha" required><br>
+            <label for="email">Digite seu email</label>
+            <input type="email" id="email" name="email" placeholder="Digite sua senha" required><br>
+            <label for="Genero">Sexo:</label><br>
+            <input type="radio" id="Genero" name="Genero" value="M">Masculino<br>
+            <input type="radio" id="Genero" name="Genero" value="F">Feminino<br>
+            <input type="radio" id="Genero" name="Genero" value="X">Prefiro não dizer<br>
+            <label>Cidades Mineiras</label><br>
+            <input type="checkbox" name="checkbox1" value="Belo Horizonte">Belo Horizonte<br>
+            <input type="checkbox" name="checkbox2" value="Belo Horizonte">Belo Horizonte<br>
+            <input type="checkbox" name="checkbox3" value="Belo Horizonte">Belo Horizonte<br>
+            <br>
+        </fieldset>
+        <button type="reset">Limpar Dados</button>
+        <button type="submit">Enviar Dados</button>
+    </form>
+</body>
+
+</html>

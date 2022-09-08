@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre nomes</title>
+    <style>
+        body {
+            font: normal 30pt Arialk;
+            background-color: rgb(106, 123, 133);
+            color: rgb(255, 255, 255);
+        }
+
+        h2 {
+            color: rgb(0, 0, 0);
+        }
+
+        p1 {
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <!--centraliza o texto em html, para centralizar em css é style="text-align:center;"-->
+        <h2>Bem vindo!</h2>
+        <p1>Aqui estão</p1>
+    </center>
+    <script>
+        //${nome} serve para nao precisar ficar concatenando usando +, porem vc deve usar com um tipo de aspas especificas, essa (``)
+        var nome = window.prompt('Qual é seu nome?');
+        document.write(`<strong>${nome}</strong>, seu nome tem ${nome.length} letras!<p>`); //nome.length conta quantas letras seu nome tem.
+        document.write(`Seu nome em maiúsculas é <strong>${nome.toUpperCase()}</strong> <p> `); //nome.toUpperCase coloca seu nome em maiusculas
+        document.write(`Seu nome em minúsculas é <strong>${nome.toLowerCase()}<s/trong>`); //nome.toLowerCase coloca seu nome em letras minusculas
+    </script>
+</body>
+
+</html>
